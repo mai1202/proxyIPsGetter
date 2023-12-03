@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "843248a4f4d57cdeab9cdd35100a77c8938c25726de007f08e7f749949872ea6"
+            "sha256": "749181103c79c1dc6a3b869f29db87554306498aeea59dc02459e8e24f37e9da"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -245,20 +245,6 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.1.3"
         },
-        "pyaes": {
-            "hashes": [
-                "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f"
-            ],
-            "version": "==1.6.1"
-        },
-        "pyasn1": {
-            "hashes": [
-                "sha256:4439847c58d40b1d0a573d07e3856e95333f1976294494c325775aeca506eb58",
-                "sha256:6d391a96e59b23130a5cfa74d6fd7f388dbbe26cc8f1edf39fdddf08d9d6676c"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==0.5.1"
-        },
         "requests": {
             "hashes": [
                 "sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
@@ -267,31 +253,6 @@
             "index": "pip_conf_index_global",
             "markers": "python_version >= '3.7'",
             "version": "==2.31.0"
-        },
-        "rsa": {
-            "hashes": [
-                "sha256:90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7",
-                "sha256:e38464a49c6c85d7f1351b0126661487a7e0a14a50f1675ec50eb34d4f20ef21"
-            ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==4.9"
-        },
-        "schedule": {
-            "hashes": [
-                "sha256:14cdeb083a596aa1de6dc77639a1b2ac8bf6eaafa82b1c9279d3612823063d01",
-                "sha256:843bc0538b99c93f02b8b50e3e39886c06f2d003b24f48e1aa4cadfa3f341279"
-            ],
-            "index": "pip_conf_index_global",
-            "markers": "python_version >= '3.7'",
-            "version": "==1.2.1"
-        },
-        "telethon": {
-            "hashes": [
-                "sha256:9e515bac70fc5bc58cbace0e193a42bb42511f16bb7a319707f860476e8ce164"
-            ],
-            "index": "pip_conf_index_global",
-            "markers": "python_version >= '3.5'",
-            "version": "==1.33.0"
         },
         "urllib3": {
             "hashes": [
