@@ -1,4 +1,3 @@
-import requests
 import zipfile
 import os
 import requests
@@ -6,6 +5,7 @@ import requests
 
 zip_url = "https://zip.baipiao.eu.org/"
 ports = ["80", "443"]
+
 
 def download_and_extract():
     # Step 1: Download the zip file
@@ -34,5 +34,6 @@ def download_and_extract():
                         if '-'+i+'.' in file:
                             with open(file_path, "r") as txt_file:
                                 combined_file.write(txt_file.read())
-                        
+
+
 download_and_extract()

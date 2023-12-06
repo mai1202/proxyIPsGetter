@@ -1,3 +1,4 @@
 *.txt
 *.zip
 /extracted_files/
+/.idea/
